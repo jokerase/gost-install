@@ -80,7 +80,7 @@ download_gost(){
 		bit="arm64"
 	fi
 	wget -N --no-check-certificate "https://yunpan.sk222.cf/Cloud/gost-linux-amd64-2.11.1.gz"
-	gost_name="gost-linux-amd64-2.11.1.gz"
+	gost_name="gost-linux-amd64-2.11.1"
 	
 	[[ ! -s "${gost_name}.gz" ]] && echo -e "${Error} gost 压缩包下载失败 !" && exit 1
 	gzip -d "${gost_name}.gz"
