@@ -79,8 +79,8 @@ download_gost(){
 	else
 		bit="arm64"
 	fi
-	wget -N --no-check-certificate "https://github.com/ginuerzh/gost/releases/download/v${gost_new_ver}/gost-linux-${bit}-${gost_new_ver}.gz"
-	gost_name="gost-linux-${bit}-${gost_new_ver}"
+	wget -N --no-check-certificate "https://yunpan.sk222.cf/Cloud/gost-linux-amd64-2.11.1.gz"
+	gost_name="gost-linux-amd64-2.11.1.gz"
 	
 	[[ ! -s "${gost_name}.gz" ]] && echo -e "${Error} gost 压缩包下载失败 !" && exit 1
 	gzip -d "${gost_name}.gz"
