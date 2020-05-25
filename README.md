@@ -2,7 +2,7 @@
 ### Centos / Ubuntu / Debian
 #### 下载/运行
 ```
-wget --no-check-certificate -O gost.sh https://raw.githubusercontent.com/ooxoop/gost-install/master/gost.sh && bash gost.sh
+wget --no-check-certificate -O gost.sh https://raw.githubusercontent.com/jokerase/gost-install/master/gost.sh && bash gost.sh
 ```
 #### 使用环境：python3
 ```
